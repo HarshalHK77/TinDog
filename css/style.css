@@ -1,0 +1,184 @@
+:root
+{
+  --bs-primary: #F31559;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #F31559, #FF52A2, #4b2494);
+  background-size: 180% 180%;
+  animation: gradient-animation 4.5s ease infinite;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500&display=swap');
+body
+{
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#butn1
+{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+}
+#butn1:hover
+{
+  box-shadow: 0 0 20px white;
+}
+#butn2
+{
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: 700;
+}
+#butn2:hover
+{
+  background-color: bisque;
+  color: black;
+  box-shadow: 0 0 20px bisque;
+}
+h1{
+  padding-bottom: 30px;
+}
+#app
+{
+  display: flex;
+  justify-content: center;
+}
+.feature-icon 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+  background-color:#FF52A2;
+  color: bisque;
+  margin-bottom: 20px;
+}
+#button1
+{
+  color: #F31559;
+  border: 1px solid #F31559;
+}
+#button1:hover
+{
+  background-color: #F31559;
+  color: white;
+}
+#button2
+{
+  background-color: #F31559;
+  border: none;
+}
+#button2:hover
+{
+  box-shadow: 0 0 20px #F31559;
+}
+#button3
+{
+  background-color: #F31559;
+  border: none;
+}
+#button3:hover
+{
+  box-shadow: 0 0 20px #F31559;
+}
+#head1
+{
+  background-color: #F31559;
+  border: 1px solid black;
+}
+#icon
+{
+  margin-left: 25px;
+}
+#testimonial
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.d-block
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#dog
+{
+  border-radius: 200px;
+  height: 125px;
+}
+#cas
+{
+  text-align: center;
+}
+#press {
+  margin-top: 10px;
+  text-align: center;
+}
+.pimg {
+  width: 18%;
+  margin: 20px 20px 50px;
+}
+#nave
+{
+  text-align: center;
+}
+.nav-item
+{
+  margin: 0 20px 0 20px;
+}
+.share
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+  flex-wrap: wrap;
+}
+#con
+{
+  border: 1px solid;
+  padding: 13px;
+  border-radius: 50px;
+  color: white;
+
+}
+#con:hover
+{
+  background-color:white;
+  color: #F31559;
+  box-shadow: 0 0 20px white;
+}
+.simg
+{
+  height:30px;
+}
